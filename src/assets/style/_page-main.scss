@@ -1,0 +1,27 @@
+.pb-header {
+	height: 80px;
+	// line-height: 80px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999999;
+	background-color: #fff;
+
+	.row {
+		height: 100%;
+	}
+
+	// * {
+	// 	vertical-align: middle;
+	// }
+
+	&__logo {
+		margin-left: 60px;
+		display: inline-flex;
+	}
+}
+
+.pb-main {
+	margin-top: 80px;
+}
