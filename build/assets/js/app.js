@@ -65,6 +65,10 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
 		// });
 	});
 
+	$(window).on('load', function(){
+		$('body').addClass('loaded');
+	});
+
 })(jQuery);
 
 

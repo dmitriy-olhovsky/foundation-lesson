@@ -64,14 +64,49 @@
   background-color: $color_yellow;
   padding: 10px 25px;
   border-radius: 10px;
-  color: #212121;
+  color: $color_gray;
 
   &:hover {
-    color: #212121;
+    color: $color_gray;
   }
 
   span {
-    border-bottom: dashed 1px #212121;
+    border-bottom: dashed 1px $color_gray;
   }
 
+}
+
+.pb-link-login {
+  margin-left: 55px;
+}
+
+.pb-button {
+  font-size: 26px;
+  text-transform: uppercase;
+  color: $color_gray;
+  letter-spacing: .06em;
+  border-radius: 10px;
+  border: 1px solid #010101;
+  display: inline-block;
+  line-height: 65px;
+  height: 65px;
+  padding: 0 35px;
+  background-color: transparent;
+  transition: ease .4s;
+  transition-property: background-color, color;
+
+  &:hover {
+    color: $color_gray;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  &--red {
+    border: 1px solid #e11a27;
+    background: #e11a27;
+    color: #fff;
+
+    &:hover {
+      color: #e11a27;
+    }
+  }
 }
