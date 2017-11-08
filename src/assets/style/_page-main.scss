@@ -244,3 +244,24 @@
 		}		
 	}
 }
+
+.pb-testimonials {
+	// background: url(../img/bg-testimonials.jpg) top center;
+	background: transparent;
+	background-size: cover;
+	padding: 40px 0 55px;
+
+
+	&__item  {
+		display: flex;
+		align-items: center;
+	}
+	
+	&__icon {
+		width: 160px;
+		height: 160px;
+		overflow: hidden;
+		position: relative;
+		border-radius: 50%;
+	}
+}

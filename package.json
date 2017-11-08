@@ -24,6 +24,7 @@
     "gulp-watch": "^4.3.11",
     "imagemin-pngquant": "^5.0.0",
     "jquery": "^3.1.1",
+    "jquery-parallax.js": "^1.5.0",
     "motion-ui": "^1.2.2",
     "rimraf": "^2.5.4",
     "slick-carousel": "^1.6.0",

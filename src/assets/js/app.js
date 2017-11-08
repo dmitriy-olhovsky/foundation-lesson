@@ -31,6 +31,7 @@
 // require foundation.zf.responsiveAccordionTabs.min.js"
 
 //=require slick.min.js
+//=require parallax.min.js
 
 
 ;(function($){

@@ -49,6 +49,7 @@ var path = {
 	whatinput: './node_modules/what-input/dist/',
 	slick: './node_modules/slick-carousel/slick',
 	jquery: './node_modules/jquery/dist/',
+	parallax: './node_modules/jquery-parallax.js/',
 	sourcemaps: '../sourcemaps'
 };
 
@@ -94,7 +95,7 @@ gulp.task('js:build', function () {
 		.pipe(include({
 				extensions: "js",
 				hardFail: true,
-				includePaths: [path.slick, path.foundation + 'dist//js/plugins', path.whatinput, path.jquery, path.src.jsfolder]
+				includePaths: [path.parallax, path.slick, path.foundation + 'dist//js/plugins', path.whatinput, path.jquery, path.src.jsfolder]
 			}).on('error', notify.onError(
 					{
 						message: "<%= error.message %>",
